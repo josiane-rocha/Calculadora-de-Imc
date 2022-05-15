@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --Font: 'Arial', sans-serif;
+    --TamFont: 20pt;
+    --CorFont: white;
+    --CorFundo: #54FF9F;
+}
+
+body {
+    font-family: var(--Font);
+    font-size: var(--TamFont);
+    background: #f5f5f5 url("fundo.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.header {
+    margin-left: none;
+}
+
+.borda {
+    border-bottom: 3px solid var(--CorFundo);
+}
+
+.warning {
+    color: #ffc107;
+}
+
+.danger {
+    color: #dc3545;
+}
+
+.success {
+    color: #28a745;
+}
+
+.between {
+    color: #fd7e14;
+}
+
+.config {
+    font-family: var(--Font);
+    font-size: var(--TamFont);
+}
+
+.container {
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--CorFont);
+    border-radius: 16px;
+}
+
+.lb {
+    width: 30%;
+    float: left;
+}
+
+.mb-3 {
+    margin: 50px 0 0 0;
+    float: left;
+    width: 100%;
+}
+
+.lbDois {
+    float: left;
+    width: 70%;
+}
+
+input[type=number] {
+    background: none;
+    width: 97%;
+    border: 0px solid white;
+    color: white;
+}
+
+.botao {
+    border-radius: 8px;
+    width: 100%;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border: 2px solid var(--CorFundo);
+}
+
+.botao:hover {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    background-color: var(--CorFundo);
+    color: #000;
+    transition: 0.1s;
+}
+
+.ps {
+    border: 2px solid var(--CorFundo);
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+}
